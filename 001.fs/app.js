@@ -1,4 +1,5 @@
-const fs = require('fs');
+// const { log } = require('console');
+// const fs = require('fs');
 
 //curd//
 
@@ -30,16 +31,52 @@ const fs = require('fs');
 
 
 
- //file ko deleted karne k liye
-fs.unlink("hello.txt",(err) => {
-    if (err) {
-        console.log(err);
+//  //file ko deleted karne k liye
+// fs.unlink("hello.txt",(err) => {
+//     if (err) {
+//         console.log(err);
         
         
-    }
+//     }
 
-    else {
-        console.log("file deleted");
+//     else {
+//         console.log("file deleted");
         
-    }
-})
+//     }
+// })
+
+
+
+//  File ko read kiase kare//
+
+
+// fs.readdir('simplefolder',(err,files) => {
+//     if (err) {
+//         console.log(err)
+        
+        
+//     }
+//     else {
+//         console.log(files)
+        
+//     }
+// // })
+
+// // ***************  delete karne k liye files *************** 
+
+// fs.rmdir('simplefolder',{
+//     recursive:true},
+
+    
+// (err) => {
+//         if (err) {
+//             console.log(err);
+            
+            
+//         }
+
+//         else {
+//             console.log("folder deleted");
+            
+//         }
+// })
