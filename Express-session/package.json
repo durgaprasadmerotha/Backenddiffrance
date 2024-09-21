@@ -1,0 +1,16 @@
+{
+  "name": "express-session",
+  "version": "1.0.0",
+  "description": "1. express-session एक middleware है जो Node.js के साथ उपयोग होता है, खासकर जब आप Express.js framework के साथ काम कर रहे होते हैं। यह session management के लिए उपयोग किया जाता है, यानी users की information को save करने और subsequent requests में access करने के लिए।",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-session": "^1.18.0"
+  }
+}
