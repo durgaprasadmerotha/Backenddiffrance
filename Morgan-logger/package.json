@@ -1,0 +1,17 @@
+{
+  "name": "morgan-logger",
+  "version": "1.0.0",
+  "description": "1. morgan-logger kuch nahi bas konsa route chal raha h ye batata h.\r 2. npm init-y\r 3.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "morgan": "^1.10.0"
+  }
+}
